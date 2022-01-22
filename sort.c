@@ -142,8 +142,8 @@ void	btoa(int r, int flag, t_element **a, t_element **b)
 		rrab(b, "rrb");
 //	printf("pa %d rb %d\n",pa_cnt,rb_cnt);
 //	check_stack(*a, *b);
-	if (rb_cnt == 0)
-		sab(a, "sa");
+//	if (rb_cnt == 0)
+//		sab(a, "sa");
 	atob(pa_cnt, flag, a, b);
 	btoa(rb_cnt, flag, a, b);
 }
